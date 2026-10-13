@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Datenschutzerklärung / Privacy Policy — Corvus Noctis</title>
+<style>
+  :root {
+    --bg: #0d0d0d;
+    --card: #161616;
+    --text: #e8e4da;
+    --muted: #9a958a;
+    --accent: #d4af37;
+    --divider: #2a2a2a;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html { overflow-x: hidden; }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.65;
+    padding: 2rem 1rem 4rem;
+  }
+  main { max-width: 42rem; margin: 0 auto; }
+  header { text-align: center; margin-bottom: 2rem; }
+  header > * { position: relative; }
+  .hero {
+    display: block; width: min(100%, 520px); height: auto; aspect-ratio: 2048 / 1365;
+    margin: -1.5rem auto -2.2rem;
+    -webkit-mask-image: radial-gradient(ellipse 50% 50% at 50% 50%, #000 50%, transparent 100%);
+    mask-image: radial-gradient(ellipse 50% 50% at 50% 50%, #000 50%, transparent 100%);
+  }
+  .wordmark {
+    font-size: 1.4rem; letter-spacing: 0.35em; font-weight: 700;
+    color: var(--accent); text-transform: uppercase;
+  }
+  h1 { font-size: 1.5rem; margin: 1.2rem 0 0.3rem; }
+  .meta { color: var(--muted); font-size: 0.9rem; }
+  .langswitch { margin: 1.4rem 0 0; display: inline-flex; border: 1px solid var(--divider); border-radius: 999px; overflow: hidden; }
+  .langswitch button {
+    background: none; border: none; color: var(--muted); font: inherit;
+    padding: 0.35rem 1.1rem; cursor: pointer;
+  }
+  .langswitch button.active { background: var(--accent); color: #000; font-weight: 600; }
+  section.card {
+    background: var(--card); border: 1px solid var(--divider); border-radius: 14px;
+    padding: 1.6rem 1.5rem; margin-top: 1.5rem;
+  }
+  h2 { font-size: 1.15rem; color: var(--accent); margin: 1.4rem 0 0.4rem; }
+  h2:first-child { margin-top: 0; }
+  p { margin: 0.5rem 0; }
+  ul { margin: 0.5rem 0 0.5rem 1.2rem; }
+  li { margin: 0.25rem 0; }
+  strong { color: #fff; }
+  a { color: var(--accent); }
+  .provider { border-left: 3px solid var(--accent); padding-left: 0.9rem; color: var(--muted); font-size: 0.95rem; }
+  footer { text-align: center; color: var(--muted); font-size: 0.85rem; margin-top: 2.5rem; }
+  [hidden] { display: none !important; }
+  @media (max-width: 640px) {
+    .hero { width: 130vw; max-width: none; margin: -1.5rem 0 -2.6rem 50%; transform: translateX(-50%); }
+  }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <img class="hero" src="../../img/corvus-noctis.jpg" alt="Corvus Noctis">
+    <div class="wordmark">Corvus Noctis</div>
+    <h1 id="title-de">Datenschutzerklärung</h1>
+    <h1 id="title-en" hidden>Privacy Policy</h1>
+    <p class="meta" id="meta-de">Gültig ab 13. Oktober 2026</p>
+    <p class="meta" id="meta-en" hidden>Effective October 13, 2026</p>
+    <div class="langswitch" role="group" aria-label="Sprache / Language">
+      <button id="btn-de" onclick="setLang('de')">Deutsch</button>
+      <button id="btn-en" onclick="setLang('en')">English</button>
+    </div>
+  </header>
+
+  <!-- ===================== DEUTSCH ===================== -->
+  <section class="card" id="lang-de">
+    <p class="provider">
+      <strong>Verantwortlicher:</strong> Cornell Fries<br>
+      <strong>Kontakt:</strong> <a href="mailto:support@corvusballistics.com">support@corvusballistics.com</a>
+    </p>
+
+    <h2>Überblick</h2>
+    <p>Corvus Noctis stellt Gesundheitsdaten aus Apple Health detailliert dar, mit Schwerpunkt auf der Nacht. Die App <strong>benötigt kein Konto</strong>, enthält <strong>kein Tracking, keine Werbung und keine Analyse-SDKs</strong> und <strong>stellt keine Verbindung zu einem Server her</strong>. Deine Daten werden weder an uns noch an Dritte übermittelt. Alles bleibt auf deinem Gerät, sofern <strong>du</strong> es nicht selbst exportierst oder teilst.</p>
+
+    <h2>Apple Health</h2>
+    <p>Mit deiner Erlaubnis liest die App folgende Werte aus Apple Health, um sie anzuzeigen:</p>
+    <ul>
+      <li>Puls und Herzschlagreihen, Herzfrequenzvariabilität (HRV)</li>
+      <li>Blutsauerstoff, Atemfrequenz und Atemstörungen</li>
+      <li>Schlafphasen und Handgelenktemperatur im Schlaf</li>
+      <li>Körpergewicht</li>
+    </ul>
+    <p>Schreibend greift die App nur auf das <strong>Körpergewicht</strong> zu: Gewichtsangaben, die du in der App einträgst, werden in Apple Health gespeichert. Die Berechtigungen kannst du jederzeit in der Health-App bzw. in den iOS-Einstellungen ändern.</p>
+    <p>Daten aus Apple Health werden <strong>nicht für Werbung oder Marketing verwendet</strong>, nicht an Dritte weitergegeben und nicht in iCloud oder anderswo gespeichert.</p>
+
+    <h2>Auf deinem Gerät gespeicherte Daten</h2>
+    <p>Ausschliesslich lokal auf deinem Gerät gespeichert werden:</p>
+    <ul>
+      <li>Tagebuch-Einträge (z.&nbsp;B. Tags und Zeitangaben pro Nacht)</li>
+      <li>App-Einstellungen (z.&nbsp;B. Darstellung, Zielgewicht, gewählte Ansichten)</li>
+      <li>Rohdaten-Exporte, wenn du sie selbst auslöst</li>
+    </ul>
+    <p>Wir haben <strong>keinen Zugriff</strong> auf diese Daten. Es gibt keinen von uns betriebenen Server oder Cloud-Dienst.</p>
+
+    <h2>Teilen und Export</h2>
+    <p>Es wird nichts automatisch gesendet. Daten verlassen dein Gerät <strong>nur, wenn du sie aktiv exportierst oder teilst</strong> (z.&nbsp;B. eine Exportdatei über das iOS-Teilen-Menü oder die Dateien-App) an ein von <strong>dir</strong> gewähltes Ziel. Für den weiteren Umgang mit geteilten Dateien bist du selbst verantwortlich.</p>
+
+    <h2>Kein Medizinprodukt</h2>
+    <p>Corvus Noctis ist kein Medizinprodukt und stellt keine Diagnosen. Die App zeigt Werte an, die Apple Health bereitstellt.</p>
+
+    <h2>Aufbewahrung und Löschung</h2>
+    <p>Du kontrollierst deine Daten. Das Löschen der App vom Gerät entfernt alle lokal gespeicherten App-Daten. Daten in Apple Health verwaltest du in der Health-App.</p>
+
+    <h2>Deine Rechte</h2>
+    <p>Da wir keine personenbezogenen Daten auf unseren Systemen erheben oder verarbeiten, liegen uns keine Daten über dich vor, die wir herausgeben, berichtigen oder löschen könnten. Bei Fragen: <a href="mailto:support@corvusballistics.com">support@corvusballistics.com</a>.</p>
+
+    <h2>Änderungen</h2>
+    <p>Diese Erklärung kann aktualisiert werden; die jeweils gültige Fassung ist unter <a href="https://cornellfries.github.io/corvus-noctis/datenschutz/">cornellfries.github.io/corvus-noctis/datenschutz</a> mit Gültigkeitsdatum veröffentlicht.</p>
+  </section>
+
+  <!-- ===================== ENGLISH ===================== -->
+  <section class="card" id="lang-en" hidden>
+    <p class="provider">
+      <strong>Controller:</strong> Cornell Fries<br>
+      <strong>Contact:</strong> <a href="mailto:support@corvusballistics.com">support@corvusballistics.com</a>
+    </p>
+
+    <h2>Overview</h2>
+    <p>Corvus Noctis displays health data from Apple Health in detail, with a focus on the night. The app <strong>does not require an account</strong>, has <strong>no user tracking, no advertising, and no analytics SDKs</strong>, and <strong>does not connect to any server</strong>. Your data is not transmitted to us or to any third party. Everything stays on your device unless <strong>you</strong> choose to export or share it.</p>
+
+    <h2>Apple Health</h2>
+    <p>With your permission, the app reads the following from Apple Health in order to display it:</p>
+    <ul>
+      <li>Heart rate and heartbeat series, heart rate variability (HRV)</li>
+      <li>Blood oxygen, respiratory rate, and breathing disturbances</li>
+      <li>Sleep stages and wrist temperature during sleep</li>
+      <li>Body weight</li>
+    </ul>
+    <p>The app only writes <strong>body weight</strong>: weight entries you make in the app are saved to Apple Health. You can change these permissions at any time in the Health app or in iOS Settings.</p>
+    <p>Data from Apple Health is <strong>not used for advertising or marketing</strong>, not shared with third parties, and not stored in iCloud or anywhere else.</p>
+
+    <h2>Data stored on your device</h2>
+    <p>The following is stored locally on your device only:</p>
+    <ul>
+      <li>Journal entries (e.g. tags and times per night)</li>
+      <li>App settings (e.g. appearance, target weight, selected views)</li>
+      <li>Raw data exports, when you create them</li>
+    </ul>
+    <p>We have <strong>no access</strong> to this data. There is no server or cloud backend operated by us.</p>
+
+    <h2>Sharing and exports</h2>
+    <p>Nothing is sent automatically. Data leaves your device <strong>only when you actively export or share it</strong> (e.g. an export file via the iOS share sheet or the Files app) to a destination <strong>you</strong> select. You are responsible for how shared files are handled afterwards.</p>
+
+    <h2>Not a medical device</h2>
+    <p>Corvus Noctis is not a medical device and does not provide diagnoses. The app displays values provided by Apple Health.</p>
+
+    <h2>Data retention and deletion</h2>
+    <p>You control your data. Deleting the app from your device removes all locally stored app data. Data in Apple Health is managed in the Health app.</p>
+
+    <h2>Your rights</h2>
+    <p>As we do not collect or process your personal data on our systems, we hold no data about you to access, correct, or delete. For questions, contact us at <a href="mailto:support@corvusballistics.com">support@corvusballistics.com</a>.</p>
+
+    <h2>Changes</h2>
+    <p>We may update this policy; the current version is published at <a href="https://cornellfries.github.io/corvus-noctis/datenschutz/">cornellfries.github.io/corvus-noctis/datenschutz</a> with its effective date.</p>
+  </section>
+
+  <footer>© 2026 Cornell Fries</footer>
+</main>
+
+<script>
+  function setLang(lang) {
+    var de = lang === 'de';
+    document.documentElement.lang = lang;
+    document.getElementById('lang-de').hidden = !de;
+    document.getElementById('title-de').hidden = !de;
+    document.getElementById('meta-de').hidden = !de;
+    document.getElementById('lang-en').hidden = de;
+    document.getElementById('title-en').hidden = de;
+    document.getElementById('meta-en').hidden = de;
+    document.getElementById('btn-de').classList.toggle('active', de);
+    document.getElementById('btn-en').classList.toggle('active', !de);
+    try { localStorage.setItem('corvus-lang', lang); } catch (e) {}
+  }
+  var saved = null;
+  try { saved = localStorage.getItem('corvus-lang'); } catch (e) {}
+  setLang(saved || ((navigator.language || 'en').toLowerCase().indexOf('de') === 0 ? 'de' : 'en'));
+</script>
+</body>
+</html>
